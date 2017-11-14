@@ -1,13 +1,13 @@
 /*********************************************************************
  * Milestone1 
  *Developed by: Chousos Christos AM:2012030117
- *	           Giariskanis Fotios AM:2011030087
+ *	        Giariskanis Fotios AM:2011030087
  *Milestone1_final:
  *This code is written and tested using Atmel Studio 7.0(software) Windows 7 (operating system) version.
  *This code is a programm for AVR ATMega16 working on a STK500 development board.
  *This code is a project which uses timer/counters, interrupt service routines, I/O,LEDs,Buttons.
  *In this code there are three modes(I/O DEMO MODE,LED DELAY INIT MODE,RESET MODE).
- *More details about this code at Αναφορά-Milestone1.pdf.
+ *More details about this code at ΓΓ­Γ΅Γ¶Γ―Γ±Γ-Milestone1.pdf.
  *Explanation of this code's functionality at README file.
  *********************************************************************/
 #define F_CPU 4000000UL
