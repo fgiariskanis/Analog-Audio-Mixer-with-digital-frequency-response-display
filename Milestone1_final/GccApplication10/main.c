@@ -7,7 +7,7 @@
  *This code is a programm for AVR ATMega16 working on a STK500 development board.
  *This code is a project which uses timer/counters, interrupt service routines, I/O,LEDs,Buttons.
  *In this code there are three modes(I/O DEMO MODE,LED DELAY INIT MODE,RESET MODE).
- *More details about this code at ÁíáöïñÜ-Milestone1.pdf.
+ *More details about this code at Αναφορά-Milestone1.pdf.
  *Explanation of this code's functionality at README file.
  *********************************************************************/
 #define F_CPU 4000000UL
