@@ -1,10 +1,12 @@
 Analog-Audio-Mixer-with-digital-frequency-response-display
-
+Developed by: Housos Christos AM:2012030117
+              Giariskanis Fotios AM:2011030087
 MILESTONE1:
 Regarding the use of the AVR platform, we created the Milestone1_final project which helped us to become familiar
 with the use and management of STK500 resources such as (timer / counters, interrupt service routines),
 I / O, and functions of the ATMega16 microprocessor. We also experimented with the AVR and Pulse with Modulation (PWM) 
-functions by creating the Milestone1_bonus project. 
+functions by creating the Milestone1_bonus project.
+We build these projects at Atmel Studio 7.0(software) Windows 7 (operating system) version.
 More details:
 
 Milestone1_final:
