@@ -1,7 +1,7 @@
 /*********************************************************************
  * Milestone1 
  * Developed by: Chousos Christos AM:2012030117
- *	             Giariskanis Fotios AM:2011030087
+ *	         Giariskanis Fotios AM:2011030087
  *Milestone1_bonus:
  *This code is written and tested using Atmel Studio 7.0(software) Windows 7 (operating system) version.
  *This code is a programm for AVR ATMega16 working on a STK500 development board.
