@@ -1,5 +1,33 @@
 Analog-Audio-Mixer-with-digital-frequency-response-display
 
 MILESTONE1:
- Milestone1_final:
+Regarding the use of the AVR platform, we created the Milestone1_final project which helped us to become familiar
+with the use and management of STK500 resources such as (timer / counters, interrupt service routines),
+I / O, and functions of the ATMega16 microprocessor. We also experimented with the AVR and Pulse with Modulation (PWM) 
+functions by creating the Milestone1_bonus project. 
+More details:
+
+Milestone1_final:
+ 1. I / O DEMO MODE:
+In this mode, pressing the PA0 and PA1 buttons we activate LED0-LED1-LED2-LED3 one by one, using Timer0.
+After 2 seconds the system resets using the Watchdog timer.
+2. LED DELAY INIT MODE:
+In this mode, pressing the PD3 button activates the interrupt INT1, whereby one of the PA0 / PA1 buttons is pressed
+at the same time, either Timer0 is initialized (according to which the process with the LEDs described in I / O DEMO MODE
+is executed) or Timer1 is initialized according to which Timer0 will be initialized after a timer1 interruption (Timer1_COMPA_vect)
+and then Timer1 enters STOP mode for PA1).
+3. RESET MODE:
+In this mode, pressing the button PD2 activates the interrupt INT0. If one of the PA0 / PA1 buttons is pressed simultaneously, 
+either the outputs are set to 0 and Timer0 is set to STOP (for PA0) or after 2seconds system makes Reset using 
+the Watchdog timer (for PA1).
+
  Milestone1_bonus:
+ Pulse With Modulation (PWM) ++ hardware): 
+In this project we created a function for initializing our PWM parameters (pwm_init) where we set a timer, the basic PWM 
+information and the PD5 output for the final signal. Then we made an interruption in the timers Overflow where we read 
+from a table the OCR1A values and make the PWM signal, and based on them we activate the Leds (using them as a meter).
+Also at the output of the system we have a passive circuit for filtering and controlling the voltage of the PWM signal which 
+ends in an 8Ω speaker for acoustic imaging of the result. Finally, an RGB Led is placed at the output of the passive filter 
+which receives voltage (same on the 3 pins) inversely with the speakers for the optical imaging of the filters cut off 
+frequency (it turns off the blue then the green and only the red led is on at the end of the potentiometer path, 
+similar to its operation in the audio frequency range).
