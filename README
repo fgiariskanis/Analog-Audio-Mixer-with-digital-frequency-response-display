@@ -33,3 +33,7 @@ ends in an 8Ω speaker for acoustic imaging of the result. Finally, an RGB Led i
 which receives voltage (same on the 3 pins) inversely with the speakers for the optical imaging of the filters cut off 
 frequency (it turns off the blue then the green and only the red led is on at the end of the potentiometer path, 
 similar to its operation in the audio frequency range).
+
+MILESTONE2:
+Build of Analog Mixer.
+For Hardware review check Milestone2.MP4 and Αναφορά-Milestone2.pdf.
