@@ -37,3 +37,8 @@ similar to its operation in the audio frequency range).
 MILESTONE2:
 Build of Analog Mixer.
 For Hardware review check Αναφορά-Milestone2.pdf.
+
+MILESTONE3:
+Build of VU-Meter and Fast Fourier Transform.
+More details at Αναφορά-Milestone3.pdf.
+Code at folder Milestone3_VUmeterFFT.
